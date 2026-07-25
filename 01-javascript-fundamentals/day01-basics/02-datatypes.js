@@ -15,6 +15,7 @@ const str2 = 'Ali';
 const str3 = `Hello ${str1}`; // template literal, used a lot in generating dynamic messages/emails
 
 console.log(typeof str1); // "string"
+console.log(typeof str3);
 
 // strings are immutable, methods return a new string, original stays unchanged
 const name = "umer";
